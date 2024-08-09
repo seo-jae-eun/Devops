@@ -24,8 +24,9 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          chmod +x ./demo/gradlew
-          ./demo/gradlew build
+          cd demo
+          chmod +x ./gradlew
+          ./gradlew build
 
       - name: copy file via ssh
         uses: appleboy/scp-action@v0.1.7

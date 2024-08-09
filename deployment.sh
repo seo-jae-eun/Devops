@@ -8,5 +8,5 @@ else
 	echo "실행 중인 백엔드 프로세스가 없습니다."
 fi
 
-echo "스프링 프로젝트 실행 중..."
+echo "스프링 프로젝트 실행 중...."
 nohup java -jar /home/ubuntu/demo-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 &
